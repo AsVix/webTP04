@@ -5,11 +5,22 @@ import { PanierRoutingModule } from './panier-routing.module';
 import { PanierComponent } from './panier.component';
 
 
+import { FormsModule } from '@angular/forms';
+import { MatSliderModule } from '@angular/material/slider';
+import { HttpClientModule } from '@angular/common/http';
+
+
+
+
+
 @NgModule({
   declarations: [PanierComponent],
   imports: [
     CommonModule,
-    PanierRoutingModule
+    PanierRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    MatSliderModule,
   ]
 })
 export class PanierModule { }

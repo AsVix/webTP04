@@ -1,1 +1,58 @@
-<p>compte works!</p>
+
+
+<div formGroupName="profileForm">    
+    <label>
+    Nom:
+    <input id="nom" type="text" formControlName="nom">
+  </label>
+  <br>
+  <label>
+        Prenom:
+        <input id="prenom" type="text" formControlName="prenom">
+  </label>
+  <br>
+  <label>
+        tel:
+        <input id="tel" type="text" formControlName="tel">
+  </label>
+  <br>
+  <label>
+        email:
+        <input id="email" type="text" formControlName="email">
+  </label>
+  <br>
+  <label>
+        password:
+        <input id ="password" type="text" formControlName="password">
+  </label>
+  <br>
+  <label>
+        login:
+        <input id="login" type="text" formControlName="login">
+  </label>
+  <br>
+</div>
+<div formGroupName="address">
+  
+    <label>
+      addresse:
+      <input id="address" type="text" formControlName="addresse">
+    </label>
+    <br>
+  
+    <label>
+      CP:
+      <input id="cp" type="text" formControlName="cp">
+    </label>
+    <br>
+    
+    <label>
+      ville:
+      <input id="ville" type="text" formControlName="ville">
+    </label>
+    <br>
+
+
+  <p>
+    <button (click)="sendForm()">Send Profile</button>
+  </p>

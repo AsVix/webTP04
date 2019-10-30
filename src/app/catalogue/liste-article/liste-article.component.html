@@ -1,11 +1,11 @@
-    <table>
+<table border="1">
     <tr *ngFor="let item of cat | async">
       <td>{{ item.ref }}</td>
       <td>{{ item.produit }}</td>
       <td>{{ item.prix }}</td>
       <td>{{ item.qte }}</td>
     </tr> 
-    </table>
+</table>
     
     <router-outlet></router-outlet>
     

@@ -1,1 +1,9 @@
-<p>panier works!</p>
+<label>Nom :</label>
+<input [(ngModel)]="name" >
+
+<label>Ref :</label>
+<input [(ngModel)]="ref" >
+
+<button (click)="onClick ()">ADD</button>
+
+<router-outlet></router-outlet>
