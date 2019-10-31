@@ -25,6 +25,6 @@ import { PanierState } from '../state/panier-state';
     ]),
   ],
   providers: [ApiServiceService],
-  exports: [ListeArticleComponent],
+  exports: [ListeArticleComponent]
 })
 export class CatalogueModule { }
