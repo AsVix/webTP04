@@ -8,6 +8,8 @@ import { PanierComponent } from './panier.component';
 import { FormsModule } from '@angular/forms';
 import { MatSliderModule } from '@angular/material/slider';
 import { HttpClientModule } from '@angular/common/http';
+import {NgxsModule  } from '@ngxs/store';
+import { PanierState } from '../state/panier-state';
 
 
 
@@ -21,6 +23,9 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     HttpClientModule,
     MatSliderModule,
+    NgxsModule.forRoot([
+      PanierState
+    ]),
   ]
 })
 export class PanierModule { }

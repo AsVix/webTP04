@@ -10,6 +10,6 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 export class AppComponent {
   title = 'app';
   constructor(
-    private router:Router
+    private router:Router,
   ){}
 }

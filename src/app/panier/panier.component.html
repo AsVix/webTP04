@@ -1,3 +1,15 @@
+<p>
+        Nombre Article(s) : {{nbArticles}}
+        
+</p>
+
+<table>
+        <tr *ngFor="let item of article">
+          <td>{{ item }}    <button (click)="onClickDelete (item)">del</button></td>
+          <td>{{ item.ref }}</td>
+        </tr> 
+    </table>
+
 <label>Nom :</label>
 <input [(ngModel)]="name" >
 
