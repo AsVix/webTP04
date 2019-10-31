@@ -3,7 +3,7 @@
       <td>{{ item.ref }}</td>
       <td>{{ item.produit }}</td>
       <td>{{ item.prix }}</td>
-      <td>{{ item.qte }}</td>
+      <td>{{ item.qte }} <button (click)="onClick (item.produit,item.ref)">ADD</button> <button (click)="onClickDetail (item.detail)">Detail</button> </td>
     </tr> 
 </table>
     

@@ -1,5 +1,5 @@
 [
-    {"ref":"0123","produit":"test","prix":10,"qte":3},
-    {"ref":"0123","produit":"test","prix":10,"qte":3},
-    {"ref":"0123","produit":"test","prix":10,"qte":3}
+    {"ref":"1","produit":"lait","prix":10,"qte":10,"detail":"ceci est du lait"},
+    {"ref":"2","produit":"livre","prix":20,"qte":20,"detail":"ceci est un livre"},
+    {"ref":"3","produit":"clavier","prix":30,"qte":30,"detail":"ceci est un clavier"}
 ]
